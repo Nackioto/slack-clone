@@ -2,8 +2,8 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Chat from './components/Chat';
 import Login from './components/Login';
-import Header from './components/Header';
 import styled from 'styled-components';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -29,4 +29,6 @@ function App() {
 
 export default App;
 
-const Container = styled.div
+const Container = styled.div`
+
+`
