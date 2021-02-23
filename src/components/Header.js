@@ -34,20 +34,27 @@ const Container = styled.div`
    color: white;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
+   position: relative;
 
 `
 const Main = styled.div`
    display: flex;
+   margin-right: 16px;
+   margin-left: 16px;
 
 `
 const UserContainer = styled.div`
    display: flex;
    align-items: center;
    padding-right: 16px;
+   position: absolute;
+   right: 0;
 `
 const SearchContainer = styled.div`
    min-width: 400px;
+   margin-left: 16px;
+   margin-right: 16px;
    
 
 `
@@ -74,10 +81,16 @@ input {
 
 `
 const Name = styled.div`
-   
+   padding-right: 16px;
 
 `
 const UserImage = styled.div`
+   width: 28px;
+   height: 28px;
+   border: 2px solid white;
+   border-radius: 3px;
    
-
+   img {
+       width: 100%;
+       height: 100%;
 `
