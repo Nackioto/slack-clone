@@ -16,7 +16,12 @@ function Header() {
                 <HelpOutlineIcon />
             </Main>
             <UserContainer>
-
+                <Name>
+                    Nacho
+             </Name>
+                <UserImage>
+                    <img src="https://www.alltalentagency.co.uk/images/talent3540/natcho_1.png" alt="" />
+                </UserImage>
             </UserContainer>
         </Container>
     )
@@ -25,7 +30,11 @@ function Header() {
 export default Header
 
 const Container = styled.div`
-   
+   background: #350d36;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 
 `
 const Main = styled.div`
@@ -33,14 +42,42 @@ const Main = styled.div`
 
 `
 const UserContainer = styled.div`
-   
-
+   display: flex;
+   align-items: center;
+   padding-right: 16px;
 `
 const SearchContainer = styled.div`
+   min-width: 400px;
    
 
 `
 const Search = styled.div`
+   box-shadow: inset 0 0 0 1px rgb(104 74 104);
+   border-radius: 6px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+
+input {
+    background-color: transparent;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+ input:focus {
+     outline: none;
+ }
+
+`
+const Name = styled.div`
+   
+
+`
+const UserImage = styled.div`
    
 
 `
