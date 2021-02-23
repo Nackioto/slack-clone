@@ -13,6 +13,11 @@ function Sidebar() {
                     <AddCircleOutlineIcon />
                 </NewMessage>
             </WorkspaceContainer>
+            <MainChannels>
+                <MainChannelItem>
+
+                </MainChannelItem>
+            </MainChannels>
         </Container>
     )
 }
@@ -45,5 +50,17 @@ const NewMessage = styled.div`
   align-items: center;
   border-radius: 50%;
   margin-right: 20px;
+  cursor: pointer;
+`
+const MainChannels = styled.div`
+  
+`
+const MainChannelItem = styled.div`
+  color: rgb(188, 171, 188);
+  display: grid;
+  grid-template-columns: 15% auto;
+  height: 28px;
+  align-items: center;
+  padding-left: 19px;
   cursor: pointer;
 `
