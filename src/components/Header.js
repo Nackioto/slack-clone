@@ -29,7 +29,7 @@ const Container = styled.div`
 
 `
 const Main = styled.div`
-   
+   display: flex;
 
 `
 const UserContainer = styled.div`
